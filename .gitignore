@@ -1,2 +1,3 @@
 #ignore node_modules directory
-C:\Users\ASUS\Desktop\Nodejs\Hosting\node_modules
+node_modules
+.env

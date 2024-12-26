@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
+require('dotenv').config();
 
-const mongoURL = "mongodb://127.0.0.1:27017/hotels";
+// const mongoURL = process.env.MONGO_URL_LOCAL // for local server
+const mongoURL = process.env.MONGO_URL // link of onlone mongodb server
 
 mongoose.connect(mongoURL,{
     // useNewUrlParser: true, commented as it was giving warning as deprecated 
